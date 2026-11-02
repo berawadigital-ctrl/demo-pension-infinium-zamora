@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-pension-infinium-zamora",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-11-02T09:04:00+01:00",
+ "updated_at": "2026-11-02T09:15:00+01:00",
+ "business": {
+  "name": "Infinium Zamora Suites",
+  "legal_name": "NEW ERA APARTAMENTS S.L.U., NIF B49299621 (aviso legal de su web)",
+  "registry_ids": [
+   "B49299621"
+  ],
+  "url": "https://infiniumzamora.com/",
+  "domain": "infiniumzamora.com",
+  "municipality": "Zamora",
+  "province": "Zamora",
+  "address": "Calle Regimiento de Toledo, 21 · 49011 Zamora",
+  "phones": [
+   "+34 655 295 878"
+  ],
+  "emails": [
+   "direccion@infiniumzamora.com"
+  ],
+  "sector": "suites y apartamentos en el centro de Zamora"
+ },
+ "rating": {
+  "value": 4.4,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por tel, web)",
+  "url": "https://www.google.com/maps/search/Pensi%C3%B3n+Infinium+Zamora+Suites+Zamora",
+  "date": "2026-10-30",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": "https://infiniumzamora.com/ohbe/?ohbe=booking",
+  "note": "motor propio de su web (boton Reservar Ahora): https://infiniumzamora.com/ohbe/?ohbe=booking, HTTP 200 (02/11/2026 09:05). Solo en espanol, mismo enlace en los 4 idiomas."
+ },
+ "audit_original": {
+  "url": "https://infiniumzamora.com/",
+  "date": "2026-11-02T09:05:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
