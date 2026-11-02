@@ -1,0 +1,44 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://infiniumzamora.com/",
+ "read_at": "2026-11-02T09:05:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://infiniumzamora.com/",
+   "sha256": "cecd8eb77ec60101917df34d0ae8da95fbf8838453f0b0782b30ab1fa38da6a5",
+   "chars": 6117
+  },
+  {
+   "url": "https://infiniumzamora.com/alojamientos-con-encanto-en-zamora/",
+   "sha256": "da4fef20fb7bf904436329e29a08002854a3a73ba07dd62f0db6b6d0f23e59ae",
+   "chars": 5542
+  },
+  {
+   "url": "https://infiniumzamora.com/apartamento-deluxe/",
+   "sha256": "976ebd6ea4c56c4cf156f037bca05f88749ff9082ef07b7cb7017e0ba821db6b",
+   "chars": 2500
+  },
+  {
+   "url": "https://infiniumzamora.com/contacto-y-ubicacion/",
+   "sha256": "31c9cb96688dd225e5652595990a1fd4fc11e48218d9b4b26e0946fb9c77b984",
+   "chars": 3959
+  },
+  {
+   "url": "https://infiniumzamora.com/habitacion-deluxe/",
+   "sha256": "be890a3f77e7f6a2c6c2de5e44ce6ebdeb1897143bd23163a637c151f00bf130",
+   "chars": 2437
+  }
+ ],
+ "other_pages_read": [
+  "https://infiniumzamora.com/apartamento-deluxe-con-balcon/",
+  "https://infiniumzamora.com/apartamento-superior-deluxe/",
+  "https://infiniumzamora.com/aviso-legal-y-politica-de-privacidad/",
+  "https://infiniumzamora.com/blog/",
+  "https://infiniumzamora.com/habitacion-doble-superior/",
+  "https://infiniumzamora.com/habitacion-triple-deluxe/",
+  "https://infiniumzamora.com/habitcion-deluxe-con-balcon/",
+  "https://infiniumzamora.com/ohbe/?ohbe=booking",
+  "https://infiniumzamora.com/politica-de-cookies/"
+ ]
+}
