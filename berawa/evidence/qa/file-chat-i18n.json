@@ -1,0 +1,396 @@
+{
+ "url": "file:///tmp/clon-pension-infinium-zamora/repo/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Hay Habitación Deluxe, Habitación Deluxe con Balcón, Habitación Doble Superior y Habitación Triple Deluxe (para dos o tres personas), además"
+    },
+    {
+     "q": "¿Tenéis apartamentos?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí: Apartamento Deluxe, Apartamento Deluxe con Balcón y Apartamento Superior Deluxe, con salón diáfano, cocina equipada con menaje y electro"
+    },
+    {
+     "q": "¿Qué tienen las habitaciones?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen Smart TV con Netflix, wifi de fibra gratuito, baño privado y aire acondicionado; las Deluxe, además, vista a la ciud"
+    },
+    {
+     "q": "¿Está incluido el desayuno?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Las reservas directas en su web incluyen, durante toda la estancia, un desayuno continental por huésped en una chocolatería y cafetería a 90"
+    },
+    {
+     "q": "¿A qué hora es el desayuno?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Las reservas directas en su web incluyen, durante toda la estancia, un desayuno continental por huésped en una chocolatería y cafetería a 90"
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Tienen parking privado propio; hay que consultar disponibilidad llamando al 655 295 878."
+    },
+    {
+     "q": "¿Dónde estáis?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Está en la Calle Regimiento de Toledo, 21, 49011 Zamora, en el centro de la ciudad."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar) o preguntar por teléfono o por correo. Este asistente no confirma disponibilidad ni"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar) o preguntar por teléfono o por correo. Este asistente no confirma disponibilidad ni"
+    },
+    {
+     "q": "¿Alquiláis por temporada?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sí: ofrecen alquiler de apartamentos de temporada para estancias más largas, por ejemplo para empresas que desplazan trabajadores a Zamora. "
+    },
+    {
+     "q": "¿Qué ver en Zamora?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Su web destaca las 22 iglesias románicas y los edificios modernistas de Zamora, la Catedral y sus jardines, y la gastronomía a orillas del D"
+    },
+    {
+     "q": "¿Cuál es vuestro teléfono?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Teléfono: 655 295 878. Correo: direccion@infiniumzamora.com. Consultar por WhatsApp →"
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 655 295 878 · direccion@infiniumzamora.com."
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 655 295 878 · direccion@infiniumzamora.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Tenéis apartamentos?",
+    "¿Está incluido el desayuno?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are the Deluxe Room, Deluxe Room with Balcony, Superior Double Room and Triple Deluxe Room (for two or three people), plus apartments."
+    },
+    {
+     "q": "Do you have apartments?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes: Deluxe Apartment, Deluxe Apartment with Balcony and Superior Deluxe Apartment, with an open-plan living room, a kitchen equipped with u"
+    },
+    {
+     "q": "What do the rooms include?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Rooms have a Smart TV with Netflix, free fibre wifi, a private bathroom and air conditioning; Deluxe rooms also have city views and a hydrom"
+    },
+    {
+     "q": "Is breakfast included?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Direct bookings on their website include, for the whole stay, a continental breakfast per guest at a chocolate shop and café 90 metres away,"
+    },
+    {
+     "q": "What time is breakfast?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Direct bookings on their website include, for the whole stay, a continental breakfast per guest at a chocolate shop and café 90 metres away,"
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "They have their own private parking; ask for availability by calling 655 295 878."
+    },
+    {
+     "q": "Where are you?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "It is at Calle Regimiento de Toledo, 21, 49011 Zamora, in the city centre."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "You can book through their booking engine (Book button) or ask by phone or email. This assistant does not confirm availability or bookings. "
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "You can book through their booking engine (Book button) or ask by phone or email. This assistant does not confirm availability or bookings. "
+    },
+    {
+     "q": "Do you offer seasonal rentals?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Yes: they offer seasonal apartment rentals for longer stays, for example for companies sending workers to Zamora. Tell them your needs by ph"
+    },
+    {
+     "q": "What to see in Zamora?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Their website highlights Zamora’s 22 Romanesque churches and Modernist buildings, the Cathedral and its gardens, and the food by the Duero. "
+    },
+    {
+     "q": "What is your phone number?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Phone: 655 295 878. Email: direccion@infiniumzamora.com. Ask on WhatsApp →"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 655 295 878 · direccion@infiniumzamora.com."
+    },
+    {
+     "q": "Do you have a pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 655 295 878 · direccion@infiniumzamora.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Do you have apartments?",
+    "Is breakfast included?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y a la Chambre Deluxe, la Chambre Deluxe avec balcon, la Chambre Double Supérieure et la Chambre Triple Deluxe (pour deux ou trois person"
+    },
+    {
+     "q": "Avez-vous des appartements ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui : Appartement Deluxe, Appartement Deluxe avec balcon et Appartement Supérieur Deluxe, avec séjour ouvert, cuisine équipée d’ustensiles e"
+    },
+    {
+     "q": "Que comprennent les chambres ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Les chambres ont une Smart TV avec Netflix, le wifi fibre gratuit, une salle de bains privée et la climatisation ; les Deluxe ont en plus vu"
+    },
+    {
+     "q": "Le petit-déjeuner est-il inclus ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Les réservations directes sur leur site incluent, pendant tout le séjour, un petit-déjeuner continental par client dans une chocolaterie-caf"
+    },
+    {
+     "q": "À quelle heure est le petit-déjeuner ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Les réservations directes sur leur site incluent, pendant tout le séjour, un petit-déjeuner continental par client dans une chocolaterie-caf"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Ils disposent d’un parking privé ; demandez la disponibilité en appelant le 655 295 878."
+    },
+    {
+     "q": "Où êtes-vous ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "L’établissement se trouve Calle Regimiento de Toledo, 21, 49011 Zamora, au centre-ville."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver via leur moteur de réservation (bouton Réserver) ou demander par téléphone ou par e-mail. Cet assistant ne confirme ni "
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver via leur moteur de réservation (bouton Réserver) ou demander par téléphone ou par e-mail. Cet assistant ne confirme ni "
+    },
+    {
+     "q": "Louez-vous à la saison ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Oui : ils proposent la location d’appartements à la saison pour des séjours plus longs, par exemple pour les entreprises qui envoient des em"
+    },
+    {
+     "q": "Que voir à Zamora ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Leur site met en avant les 22 églises romanes et les édifices modernistes de Zamora, la cathédrale et ses jardins, et la gastronomie au bord"
+    },
+    {
+     "q": "Quel est votre numéro de téléphone ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Téléphone : 655 295 878. E-mail : direccion@infiniumzamora.com. Écrire sur WhatsApp →"
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 655 295 878 · direccion@infiniumzamora.com."
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 655 295 878 · direccion@infiniumzamora.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Avez-vous des appartements ?",
+    "Le petit-déjeuner est-il inclus ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt das Deluxe-Zimmer, das Deluxe-Zimmer mit Balkon, das Doppelzimmer Superior und das Triple-Deluxe-Zimmer (für zwei oder drei Personen"
+    },
+    {
+     "q": "Haben Sie Apartments?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Ja: Deluxe-Apartment, Deluxe-Apartment mit Balkon und Superior-Deluxe-Apartment, mit offenem Wohnraum, Küche mit Geschirr und hochwertigen G"
+    },
+    {
+     "q": "Was bieten die Zimmer?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Die Zimmer haben Smart-TV mit Netflix, kostenloses Glasfaser-WLAN, eigenes Bad und Klimaanlage; die Deluxe-Zimmer zusätzlich Stadtblick und "
+    },
+    {
+     "q": "Ist das Frühstück inklusive?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Direktbuchungen über die Website enthalten während des gesamten Aufenthalts ein kontinentales Frühstück pro Gast in einer Chocolatería mit C"
+    },
+    {
+     "q": "Wann gibt es Frühstück?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Direktbuchungen über die Website enthalten während des gesamten Aufenthalts ein kontinentales Frühstück pro Gast in einer Chocolatería mit C"
+    },
+    {
+     "q": "Gibt es einen Parkplatz?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Es gibt einen eigenen Privatparkplatz; Verfügbarkeit bitte telefonisch unter 655 295 878 anfragen."
+    },
+    {
+     "q": "Wo liegt die Unterkunft?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Die Unterkunft liegt in der Calle Regimiento de Toledo, 21, 49011 Zamora, im Stadtzentrum."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine buchen (Schaltfläche Buchen) oder telefonisch bzw. per E-Mail anfragen. Dieser Assistent bestätigt wede"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine buchen (Schaltfläche Buchen) oder telefonisch bzw. per E-Mail anfragen. Dieser Assistent bestätigt wede"
+    },
+    {
+     "q": "Vermieten Sie saisonal?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Ja: Für längere Aufenthalte gibt es Apartments zur Saisonmiete, etwa für Firmen, die Mitarbeiter nach Zamora schicken. Schildern Sie Ihren B"
+    },
+    {
+     "q": "Was kann man in Zamora besichtigen?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Die Website hebt die 22 romanischen Kirchen und die Jugendstilbauten von Zamora hervor, die Kathedrale mit ihren Gärten und die Gastronomie "
+    },
+    {
+     "q": "Wie ist Ihre Telefonnummer?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Telefon: 655 295 878. E-Mail: direccion@infiniumzamora.com. Per WhatsApp schreiben →"
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 655 295 878 · direccion@infiniumzamora.com."
+    },
+    {
+     "q": "Haben Sie einen Pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 655 295 878 · direccion@infiniumzamora.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Haben Sie Apartments?",
+    "Ist das Frühstück inklusive?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
